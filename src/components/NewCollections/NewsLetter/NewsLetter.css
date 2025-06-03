@@ -1,0 +1,79 @@
+.newsletter{
+    width: 80%;
+    height: 40vh;
+    display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding: 0px 140x;
+     margin: auto;
+     margin-bottom: 150px;
+     background: linear-gradient(180deg , #98f8f8 0% , #f8a9f83c 60%);
+     gap: 30px;
+     border-radius: 50px;
+     border: 1px solid black;
+    }
+    .newsletter h1{
+        color: #454545;
+        font-size: 55px;
+        font-weight: 600;
+    }
+     .newsletter p{
+        color: #454545;
+        font-size: 20px;
+    }
+    .newsletter input:hover{
+        border : 5px solid ; 
+        border-color: darkslateblue;
+        border-width: 3px;
+    }
+    .newsletter input:hover::placeholder {
+        color: darkslateblue; 
+        transition: color 0.3s;
+        font-size: 23px;
+    }
+    .newsletter input:focus{
+        border: 5px solid;
+        border-color: darkslateblue;
+        font-size: 23px;
+        border-width: 3px;
+        text-align: center;
+        
+        transition: text-align 4s;
+    }
+    .newsletter input{
+        width: 650px;
+        border-radius: 10px;
+        margin-left: 30px;
+        border:0.3px solid;
+        outline: none;
+        color: green ;
+        font-family: poppins;
+        font-size: 20px;
+        height: 65px;
+        text-align: center;
+        margin-right: 20px;
+        font-weight: 600;
+    }
+    .newsletter input::placeholder{
+        padding-left: 30px;
+    }
+    .newsletter button{
+        width: 240px;
+        height: 65px;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+        font-size: 19px;
+        cursor: pointer;
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+    .newsletter button:active{
+        background-color:rgb(123, 123, 123);
+    }
+    .newsletter button:hover{
+       transform: scale(1.02);
+       transition: 0.1s;
+       font-size:22px;
+    }

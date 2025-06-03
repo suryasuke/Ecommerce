@@ -1,0 +1,147 @@
+.cartitems{
+margin: 100px 170px;
+
+}
+.cartitems hr{
+height: 3px;
+background: #e2e2e2;
+border : 0;
+}
+.cartitems-format-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 80px;
+    padding: 20px 0px 20px 0p;
+    color: #454545;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 8px;
+
+}
+.cartitems-quantity{
+    width: 68px;
+    height: 55px;
+    background-color: rgb(1, 80, 18);
+    border: none;
+    border-radius: 9px;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.carticon-product-icon{
+    
+border-radius: 10px;
+width: 170px;
+height: 220px;
+margin: 30px 35px 30px 0px;
+
+
+margin-bottom: 10px;
+}
+.cartitems-format{
+font-size: 24px;
+font-weight: 600;
+margin-bottom: 20px;
+}
+
+
+
+.removejanda img{
+margin-left: 12.5px;
+margin-top: 5px;
+width: 50px;
+height: 50px;
+cursor: pointer;
+}
+.cartitems-quantity{
+    margin-left: 24.1px;
+}
+.total-amnt{
+    margin-left: 17px;
+}
+.actual-amnt{
+    margin-left: 13px;
+}
+.cartitems-down{
+    flex: 1;
+    display: flex;
+    margin: 100px 0px;
+    width: 100%;
+ 
+
+  
+
+}
+.cartitems-total{
+    flex:1;
+    display:flex ;
+    flex-direction: column;
+    margin-left: 200px;
+    gap: 40px;
+    margin-right: 200px;
+    margin-top: 100px;
+    user-select: none;
+}
+.cartitems-total-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+.cartitems-total button {
+    width: 262px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    height: 60px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    box-shadow : 2px;
+}
+.cartitems-total button:active{
+ 
+    transition: 0.3s;
+    transform: scale(0.7);
+}
+.cartitems-promocode{
+    flex:1;
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 450px;
+}
+.cartitems-total-item p{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+
+}
+.cartitems-total-item h3{
+    font-size: 28px;
+    margin: 10px;
+    font-weight: 650;
+}
+.cartitems-total-item .total{
+    color: green;
+    font-size: 26px;
+    font-weight: 670;
+}
+.cartitems-total-item .totally{
+    font-size: 25px;
+    font-weight: 600;
+
+}
+.cartitems-total-item span{
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: line-through;
+    color:#ed0000;
+    margin-right: 12px;
+
+}
+
+
+
