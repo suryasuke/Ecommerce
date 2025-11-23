@@ -15,7 +15,7 @@ import LoginSignup from './pages/LoginSignup' ;
 
 function App() {
   return (
-    <div className="app-root">
+    <div>
       <BrowserRouter>
        <Navbar/>
        <Routes>
