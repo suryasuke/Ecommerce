@@ -4,7 +4,10 @@ import './css/ShopCategory.css'
 import {ShopContext}   from '../context/ShopContext'
 import dropdown_icon from '../components/assets/arrow-down.svg'
 import Item from '../components/Item/Item'
-export const ShopCategory = (props) => {
+import  { motion } from 'framer-motion'
+
+export const ShopCategory = (props) => { //props -> betta
+  
 
  const {all_product} = useContext(ShopContext);
 
@@ -21,6 +24,8 @@ export const ShopCategory = (props) => {
       </div>
       <div className="shopcategory-products">
         {all_product.map((item , i)=>{
+
+               //betta  ===  betta 
           if(props.category===item.category){
             return <Item key = {i} id={item.id} name={item.name} image={item.image} old_price={item.old_price} new_price={item.new_price} />
           }
@@ -32,6 +37,10 @@ export const ShopCategory = (props) => {
       <div className="shopcategory-loadmore">
         <a  className='freshma'   href='https://www.freshma.in/'>Explore More</a>
       </div>
+
+
+
+
       </div>
   )
 }

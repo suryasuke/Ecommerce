@@ -8,7 +8,7 @@ import NewsLetter from '../components/NewCollections/NewsLetter/NewsLetter'
 
 const Shop = () => {
   return (
-    <div>
+    <div style={{width:'100%' , overflowX : 'hidden'}}>
       <Hero /> 
       <Popular />
       <Offers />

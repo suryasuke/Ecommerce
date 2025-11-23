@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './navbar.css'
 import logo from '../assets/fish-logo.png.png'
 import cart_icon from '../assets/cart_icon.png'
@@ -7,9 +7,14 @@ import  {useState} from 'react';
 import { useContext } from 'react'
 import { ShopContext } from '../../context/ShopContext'
  const Navbar = () => {
-  const {count} = useContext(ShopContext);
+  const {count , addcart} = useContext(ShopContext);
  
     const [menu, setMenu] = useState("shop")
+useEffect(()=>{
+addcart(2);
+},[])
+
+
   return (
     <div className='navbar'>
         <div className='nav-logo'>

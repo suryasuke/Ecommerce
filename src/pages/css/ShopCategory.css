@@ -21,6 +21,10 @@
     justify-content: space-between;
     background-color:none ; 
 }
+.slide-h2{
+    color: black;
+    
+}
 .shopcategory-sort img{
     width: 32px;
     height: 28px;

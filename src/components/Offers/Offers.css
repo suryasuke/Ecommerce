@@ -6,6 +6,7 @@
     background: linear-gradient(180deg , #f9a5ff 0% , #3995a722 60%);
     margin: 0px 55px 0px 55px;
     border-radius: 12px;
+    overflow-x: hidden;
 }
 .offers-left{
 flex: 1;
